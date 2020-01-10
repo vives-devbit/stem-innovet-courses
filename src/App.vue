@@ -41,12 +41,16 @@
       <Course />
       <HelloWorld/>
     </v-content>
+      <Footer/>
+
+
   </v-app>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld';
 import Course from './components/Course';
+import Footer from './components/Footer';
 
 export default {
   name: 'App',
@@ -54,6 +58,7 @@ export default {
   components: {
     HelloWorld,
     Course,
+    Footer,
   },
 
   data: () => ({
