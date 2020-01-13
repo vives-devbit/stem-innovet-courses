@@ -32,7 +32,7 @@
                 class="d-flex child-flex"
                 cols="3"
               >
-                <v-card flat tile class="d-flex round-image">
+                <v-card flat tile color="secondary" class="d-flex round-card darken-2">
                   <v-img
                     :src="logo"
                     aspect-ratio="1"
@@ -97,7 +97,7 @@ export default {
 </script>
 
 <style scoped>
-.round-image {
-  border-radius: 30%;
+.round-card {
+  border-radius: 10%;
 }
 </style>
