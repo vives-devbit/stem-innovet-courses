@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <div>
       <v-app-bar
         dark
         elevation="12"
@@ -17,6 +18,7 @@
         </v-btn>
   
       </v-app-bar>
+    </div>
 
     <v-content>
     </v-content>
