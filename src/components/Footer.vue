@@ -1,14 +1,14 @@
 <template>
   <v-footer
     dark
+    color="secondary darken-2"
     padless
-    class="pa-6"
   >
 
     <v-row>
       
       <v-col cols="12" sm="4">
-        <v-card>
+        <v-card color="secondary darken-2" tile flat>
           <v-card-title>IoT, slimme school 2.0.</v-card-title>
           <v-card-text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel libero luctus, pretium nunc sed, varius mauris. Aliquam fringilla, diam a scelerisque auctor, sapien sem consectetur lectus, et vestibulum sapien odio ac quam. Morbi fermentum gravida nisl, laoreet venenatis velit bibendum eget. Nunc interdum eu quam a hendrerit. Proin laoreet metus vitae ultricies eleifend.
@@ -20,7 +20,7 @@
       </v-col>
       
       <v-col cols="12" sm="4">
-        <v-card>
+        <v-card color="secondary darken-2" tile flat>
           <v-card-text>
             Dit project is een samenwerking tussen VTI Torhout en de VIVES hogeschool.
           </v-card-text>
@@ -48,7 +48,7 @@
       </v-col>
       
       <v-col cols="12" sm="4">
-        <v-card class="lighten-1 white--text text-center pa-3">
+        <v-card class="white--text text-center pa-3"  color="secondary darken-2" tile flat>
           <v-btn
             v-for="icon in icons"
             :key="icon"
@@ -64,8 +64,7 @@
   
       <v-card
         class="flex"
-        flat
-        tile
+        tile flat color="secondary darken-2"
       >
         <v-card-text class="py-2 white--text text-center">
           Een website gebracht door <a href="https://www.devbit.be">DevBit</a>
@@ -78,8 +77,6 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
-
   data: () => ({
     icons: [
       'mdi-facebook',
