@@ -19,8 +19,6 @@
       </v-app-bar>
 
     <v-content>
-      <Course />
-      <Course />
     </v-content>
     <Footer/>
 
@@ -28,14 +26,12 @@
 </template>
 
 <script>
-import Course from './components/Course';
 import Footer from './components/Footer';
 
 export default {
   name: 'App',
 
   components: {
-    Course,
     Footer,
   },
 
