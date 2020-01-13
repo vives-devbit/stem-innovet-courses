@@ -39,16 +39,13 @@
 
     <v-content>
       <Course />
-      <HelloWorld/>
     </v-content>
-      <Footer/>
-
+    <Footer/>
 
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
 import Course from './components/Course';
 import Footer from './components/Footer';
 
@@ -56,7 +53,6 @@ export default {
   name: 'App',
 
   components: {
-    HelloWorld,
     Course,
     Footer,
   },
