@@ -21,6 +21,7 @@
     </div>
 
     <v-content>
+      <CourseOverview/>
     </v-content>
     <Footer/>
 
@@ -28,12 +29,14 @@
 </template>
 
 <script>
+import CourseOverview from './components/CourseOverview';
 import Footer from './components/Footer';
 
 export default {
   name: 'App',
 
   components: {
+    CourseOverview,
     Footer,
   },
 
