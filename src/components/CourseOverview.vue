@@ -1,9 +1,11 @@
 <template>
-  <v-row>
-    <v-col class="course flex-grow-0" v-for="course in courses" :key="course">
-      <Course/>
-    </v-col>
-  </v-row>
+  <v-container fluid>
+    <v-row>
+      <v-col class="course" v-for="course in courses" :key="course">
+        <Course/>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -15,7 +17,7 @@ export default {
   },
   
   data: () => ({
-    courses: [1, 2, 3]
+    courses: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
   }),
 }
 </script>
