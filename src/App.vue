@@ -2,6 +2,7 @@
   <v-app>
       <v-app-bar
         dark
+        elevation="12"
       >
         <v-toolbar-title>IoT, slimme school 2.0 </v-toolbar-title>
   

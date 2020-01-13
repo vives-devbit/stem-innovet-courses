@@ -2,7 +2,6 @@
   <v-footer
     dark
     color="secondary darken-2"
-    padless
   >
 
     <v-row>
