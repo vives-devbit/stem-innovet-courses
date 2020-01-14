@@ -3,7 +3,7 @@
     <v-img class="white--text align-end" :src="course.image"></v-img>
 
     <v-card-title>{{ course.title }}</v-card-title>
-    <v-card-subtitle>by {{ course.author }}</v-card-subtitle>
+    <v-card-subtitle>door {{ course.author }}</v-card-subtitle>
 
     <v-card-text class="text--primary">
       <div>{{ course.description }}</div>
@@ -29,7 +29,7 @@
     <v-card-actions>
 
       <v-btn color="green" text :href="course.site" target="_blank">
-        <v-icon>mdi-web</v-icon>&nbsp;Course
+        <v-icon>mdi-web</v-icon>&nbsp;Cursus
       </v-btn>
 
       <v-btn color="blue" text>
