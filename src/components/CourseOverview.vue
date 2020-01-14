@@ -1,7 +1,7 @@
 <template>
   <v-container fluid>
     <v-row>
-      <v-col class="course" v-for="course in courses" :key="course">
+      <v-col class="course" v-for="course in courses" :key="course.id">
         <Course :course="course"/>
       </v-col>
     </v-row>
