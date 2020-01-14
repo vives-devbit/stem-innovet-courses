@@ -3,7 +3,7 @@
     <v-img class="white--text align-end" src="http://www.picserver.org/highway-signs2/images/programming.jpg"></v-img>
 
     <v-card-title>{{ course.title }}</v-card-title>
-    <v-card-subtitle>by Nico De Witte</v-card-subtitle>
+    <v-card-subtitle>by {{ course.author }}</v-card-subtitle>
 
     <v-card-text class="text--primary">
       <div>This course aims to guide you to become a good programmer by teaching you the core concepts required for object oriented programming. While the language used here is C#, any or most other OOP programming languages can be used in combination with this course.</div>

@@ -21,7 +21,7 @@
     </div>
 
     <v-content>
-      <CourseOverview/>
+      <CourseOverview :courses="courses"/>
     </v-content>
     <Footer/>
 
@@ -31,6 +31,7 @@
 <script>
 import CourseOverview from './components/CourseOverview';
 import Footer from './components/Footer';
+import courses from './data/courses.json'
 
 export default {
   name: 'App',
@@ -40,8 +41,8 @@ export default {
     Footer,
   },
 
-  data: () => ({
-    //
+data: () => ({
+    courses: courses
   }),
 };
 </script>

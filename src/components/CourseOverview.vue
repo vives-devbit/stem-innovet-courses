@@ -12,16 +12,10 @@
 import Course from './Course';
 
 export default {
+  props: ['courses'],
   components: {
     Course,
   },
-  
-  data: () => ({
-    courses: [
-      { title: 'Learn to Program' },
-      { title: 'God is dead' }
-    ]
-  }),
 }
 </script>
 
