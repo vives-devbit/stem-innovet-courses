@@ -1,6 +1,6 @@
 <template>
   <v-card class="mx-auto" max-width="400" hover>
-    <v-img class="white--text align-end" src="http://www.picserver.org/highway-signs2/images/programming.jpg"></v-img>
+    <v-img class="white--text align-end" :src="course.image"></v-img>
 
     <v-card-title>{{ course.title }}</v-card-title>
     <v-card-subtitle>by {{ course.author }}</v-card-subtitle>

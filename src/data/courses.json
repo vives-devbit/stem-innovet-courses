@@ -10,7 +10,8 @@
       "theory": "4u",
       "lab": "4u",
       "total": "8 uur"
-    }
+    },
+    "image": "http://pngimg.com/uploads/github/github_PNG55.png"
   },
   {
     "id": 2,
@@ -23,6 +24,7 @@
       "theory": "4u",
       "exercises": "3u",
       "total": "7 uur"
-    }
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1024px-Python.svg.png"
   }
 ]
