@@ -2,7 +2,7 @@
   <v-container fluid>
     <v-row>
       <v-col class="course" v-for="course in courses" :key="course">
-        <Course/>
+        <Course :course="course"/>
       </v-col>
     </v-row>
   </v-container>
@@ -17,7 +17,10 @@ export default {
   },
   
   data: () => ({
-    courses: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    courses: [
+      { title: 'Learn to Program' },
+      { title: 'God is dead' }
+    ]
   }),
 }
 </script>

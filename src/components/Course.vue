@@ -2,7 +2,7 @@
   <v-card class="mx-auto" max-width="400" hover=true>
     <v-img class="white--text align-end" src="http://www.picserver.org/highway-signs2/images/programming.jpg"></v-img>
 
-    <v-card-title>Programming from Base to Ace</v-card-title>
+    <v-card-title>{{ course.title }}</v-card-title>
     <v-card-subtitle>by Nico De Witte</v-card-subtitle>
 
     <v-card-text class="text--primary">
@@ -38,3 +38,9 @@
     </v-card-actions>
   </v-card>
 </template>
+
+<script>
+export default {
+  props: ['course']
+}
+</script>
