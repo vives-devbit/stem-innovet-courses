@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto" max-width="400" hover>
+  <v-card hover>
     <v-img class="white--text align-end" :src="course.image"></v-img>
 
     <v-card-title>{{ course.title }}</v-card-title>
