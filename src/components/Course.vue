@@ -1,15 +1,20 @@
 <template>
-  <v-card hover>
-    <v-img class="white--text align-end" :src="course.image"></v-img>
+  <v-card hover class="d-flex flex-column" height="100%">
+    <v-card flat tile class="px-2 pt-2">
+      <v-img class="white--text align-end" :src="course.image"></v-img>
+    </v-card>
 
-    <v-card-title>{{ course.title }}</v-card-title>
-    <v-card-subtitle>door {{ course.author }}</v-card-subtitle>
+    <v-card flat tile class="flex">
+      <v-card-title>{{ course.title }}</v-card-title>
+      <v-card-subtitle>door {{ course.author }}</v-card-subtitle>
 
-    <v-card-text class="text--primary">
-      <div>{{ course.description }}</div>
-    </v-card-text>
+      <v-card-text class="text--primary">
+        <div>{{ course.description }}</div>
+      </v-card-text>
+    </v-card>
 
-    <v-card-text>
+    <v-card flat tile class="mx-4">
+
       <v-chip class="ma-2" color="secondary" text-color="white" v-if="course.time.theory">
         {{ course.time.theory }} theorie <v-icon right>mdi-book-open-page-variant</v-icon>
       </v-chip>
@@ -22,11 +27,11 @@
         {{ course.time.exercises }} exercises <v-icon right>mdi-arm-flex-outline</v-icon>
       </v-chip>
 
-    </v-card-text>
+    </v-card>
 
     <v-divider class="mx-4"></v-divider>
 
-    <v-card-actions>
+    <v-card tile flat class="mx-4">
       <v-row>
         <v-col cols="6">
           <v-btn color="primary" text :href="course.site" target="_blank" block>
@@ -39,7 +44,7 @@
           </v-btn>
         </v-col>
       </v-row>
-    </v-card-actions>
+    </v-card>
   </v-card>
 </template>
 
