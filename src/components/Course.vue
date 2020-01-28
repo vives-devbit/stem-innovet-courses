@@ -10,7 +10,7 @@
     </v-card-text>
 
     <v-card-text>
-      <v-chip class="ma-2" color="primary" text-color="white" v-if="course.time.theory">
+      <v-chip class="ma-2" color="secondary" text-color="white" v-if="course.time.theory">
         {{ course.time.theory }} theorie <v-icon right>mdi-book-open-page-variant</v-icon>
       </v-chip>
 
@@ -18,7 +18,7 @@
         {{ course.time.lab }} labo <v-icon right>mdi-worker</v-icon>
       </v-chip>
 
-      <v-chip class="ma-2" color="green" text-color="white" v-if="course.time.exercises">
+      <v-chip class="ma-2" color="secondary" text-color="white" v-if="course.time.exercises">
         {{ course.time.exercises }} exercises <v-icon right>mdi-arm-flex-outline</v-icon>
       </v-chip>
 
@@ -27,19 +27,18 @@
     <v-divider class="mx-4"></v-divider>
 
     <v-card-actions>
-
-      <v-btn color="green" text :href="course.site" target="_blank">
-        <v-icon>mdi-web</v-icon>&nbsp;Cursus
-      </v-btn>
-
-      <v-btn color="blue" text>
-        <v-icon>mdi-watch</v-icon>&nbsp;{{ course.time.total }}
-      </v-btn>
-
-      <v-btn color="orange" text :href="course.github" target="_blank">
-        <v-icon>mdi-github-circle</v-icon>&nbsp;Github
-      </v-btn>
-
+      <v-row>
+        <v-col cols="6">
+          <v-btn color="primary" text :href="course.site" target="_blank" block>
+            <v-icon>mdi-web</v-icon>&nbsp;Cursus
+          </v-btn>
+        </v-col>
+        <v-col cols="6">
+          <v-btn color="green" text :href="course.github" target="_blank" block>
+            <v-icon>mdi-github-circle</v-icon>&nbsp;Github
+          </v-btn>
+        </v-col>
+      </v-row>
     </v-card-actions>
   </v-card>
 </template>
