@@ -21,6 +21,7 @@
     </div>
 
     <v-content>
+      <CorePoints />
       <CourseOverview :courses="courses"/>
     </v-content>
     <Footer/>
@@ -31,6 +32,7 @@
 <script>
 import CourseOverview from './components/CourseOverview';
 import Footer from './components/Footer';
+import CorePoints from './components/CorePoints';
 import courses from './data/courses.json'
 
 export default {
@@ -39,6 +41,7 @@ export default {
   components: {
     CourseOverview,
     Footer,
+    CorePoints,
   },
 
 data: () => ({
