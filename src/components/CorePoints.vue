@@ -1,11 +1,11 @@
 <template>
-  <v-container fluid class="secondary">
-    <v-row class="mx-12">
+  <v-container>
+    <v-row justify="center">
       <v-col cols="12"
         sm="12"
         md="4"
         lg="4"
-        xl="4"
+        xl="3"
       >
         <v-card outlined>
           <v-card-title class="justify-center primary--text"><h2>Samenwerking</h2></v-card-title>
@@ -20,7 +20,7 @@
         sm="12"
         md="4"
         lg="4"
-        xl="4"
+        xl="3"
       >
         <v-card outlined>
           <v-card-title class="justify-center primary--text"><h2>Open Source</h2></v-card-title>
@@ -35,7 +35,7 @@
         sm="12"
         md="4"
         lg="4"
-        xl="4"
+        xl="3"
       >
         <v-card outlined>
           <v-card-title class="justify-center primary--text"><h2>Online Beschikbaar</h2></v-card-title>
