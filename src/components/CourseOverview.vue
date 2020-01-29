@@ -1,6 +1,12 @@
 <template>
   <v-container>
     <v-row>
+      <v-col cols="12" fluid class="text-center">
+        <h1>Beschikbare cursussen</h1>
+      </v-col>
+    </v-row>
+
+    <v-row>
       <v-col
         cols="12"
         sm="6"
