@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col cols="12" fluid class="text-center">
-        <h1>Beschikbare cursussen</h1>
+        <h1 id="course_overview">Beschikbare cursussen</h1>
       </v-col>
     </v-row>
 

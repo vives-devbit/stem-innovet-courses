@@ -12,6 +12,7 @@
         <v-btn
           color="red"
           class="ma-2 white--text"
+          @click="$vuetify.goTo('#course_overview', 0, 2000)"
         >
           Courses
           <v-icon right dark>mdi-notebook-multiple</v-icon>
@@ -33,7 +34,7 @@
 import CourseOverview from './components/CourseOverview';
 import Footer from './components/Footer';
 import CorePoints from './components/CorePoints';
-import courses from './data/courses.json'
+import courses from './data/courses.json';
 
 export default {
   name: 'App',
