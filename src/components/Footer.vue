@@ -55,7 +55,7 @@
           <p>
             Een website gebracht door
           </p>
-          <v-img src="../assets/devbit.png" max-height="160" contain></v-img>
+          <a href="https://www.devbit.be"><v-img src="../assets/devbit.png" max-height="160" contain></v-img></a>
           <div>
             <v-btn
               v-for="icon in icons"
