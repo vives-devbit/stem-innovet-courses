@@ -51,12 +51,12 @@
       </v-col>
       
       <v-col cols="12" sm="4">
-        <v-card class="white--text text-center pa-3"  color="secondary darken-2" tile flat>
-          <p>
+        <v-card class="white--text text-center"  color="secondary darken-2" tile flat>
+          <v-card-text>
             Een website gebracht door
-          </p>
+          </v-card-text>
           <a href="https://www.devbit.be"><v-img src="../assets/devbit.png" max-height="160" contain></v-img></a>
-          <div>
+          <div class="mt-4">
             <v-btn
               v-for="media in social_media"
               :key="media.icon"
