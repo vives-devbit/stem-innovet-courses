@@ -46,5 +46,15 @@
     "site": "https://innovet-arduino-uno.netlify.com/",
     "time": { },
     "image": "/img/arduino.png"
+  },
+  {
+    "id": 5,
+    "title": "Inleiding IoT",
+    "author": "Kris Werbrouck",
+    "description": "Het Internet of Things (IoT) - in het Nederlands het Internet der Dingen - verwijst naar het geheel van apparaten die verbonden zijn met het internet. Hierdoor kunnen deze apparaten gegevens naar de cloud of een eigen database sturen, communiceren met elkaar, met computers, smartphones, ...",
+    "github": "https://github.com/KrisWerbrouck1/Innovet_IOT_Inleiding_SO",
+    "site": "https://innovet-inleiding-iot.netlify.com/",
+    "time": { },
+    "image": "/img/iot.jpg"
   }
 ]
