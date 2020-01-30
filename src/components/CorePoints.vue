@@ -1,13 +1,13 @@
 <template>
   <v-container>
-    <v-row justify="center">
+    <v-row justify="center" align="center">
       <v-col cols="12"
         sm="12"
         md="4"
         lg="4"
         xl="3"
       >
-        <v-card outlined height="100%">
+        <v-card outlined>
           <v-card-title class="justify-center primary--text"><h2>Samenwerking</h2></v-card-title>
           <v-card-text class="text--primary text-center">
             <div>Something about git and stuff. Github Rules and all</div>
@@ -22,7 +22,7 @@
         lg="4"
         xl="3"
       >
-        <v-card outlined height="100%">
+        <v-card outlined>
           <v-card-title class="justify-center primary--text"><h2>Doelpubliek</h2></v-card-title>
           <v-card-text class="text--primary">
             <p>
@@ -44,7 +44,7 @@
         lg="4"
         xl="3"
       >
-        <v-card outlined height="100%">
+        <v-card outlined>
           <v-card-title class="justify-center primary--text"><h2>Online Beschikbaar</h2></v-card-title>
           <v-card-text class="text--primary text-center">
             <div>Something about git and stuff. Github Rules and all</div>
