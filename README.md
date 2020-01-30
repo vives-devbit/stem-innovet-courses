@@ -27,4 +27,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Images
 
-Free from https://pxhere.com/
+Free from https://pxhere.com/ or https://pexels.com
