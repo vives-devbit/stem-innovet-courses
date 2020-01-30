@@ -49,6 +49,16 @@
   },
   {
     "id": 5,
+    "title": "Inleiding IoT",
+    "author": "Kris Werbrouck",
+    "description": "Het Internet of Things (IoT) - in het Nederlands het Internet der Dingen - verwijst naar het geheel van apparaten die verbonden zijn met het internet. Hierdoor kunnen deze apparaten gegevens naar de cloud of een eigen database sturen, communiceren met elkaar, met computers, smartphones, ...",
+    "github": "https://github.com/KrisWerbrouck1/Innovet_IOT_Inleiding_SO",
+    "site": "https://innovet-inleiding-iot.netlify.com/",
+    "time": { },
+    "image": "/img/iot.jpg"
+  },
+  {
+    "id": 6,
     "title": "Adafruit.io",
     "author": "Kris Werbrouck",
     "description": "Adafruit.io is een cloud service die primair bedoeld is voor het opslaan en ophalen van gegevens, maar het kan veel meer dan alleen dat! Het is een systeem dat gegevens nuttig maakt. De focus ligt daarbij op gebruiksgemak en het ondersteunen ​​van eenvoudige communicatie met weinig programmeerwerk.",
@@ -58,7 +68,7 @@
     "image": "/img/adafruit_io.png"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Raspberry Pi",
     "author": "Kris Werbrouck",
     "description": "De Raspberry PI is een kleine single bord computer. De Raspberry Pi werd ontwikkeld aan de Universiteit van Cambridge en was bedoeld voor educatieve doeleinden. De productie van de eerste Raspberry Pi model B werd op 10 januari 2012 gestart. Sindsdien zijn er verschillende modellen en versies uitgebracht.",
@@ -68,7 +78,7 @@
     "image": "/img/raspberry_pi.jpg"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "ESP8266",
     "author": "Kris Werbrouck",
     "description": "De ESP8266 is een goedkope 32 bit microcontroller met Wi-Fi mogelijkheid. De ESP8266 is ontwikkeld en wordt geproduceerd door de Chinese fabrikant Espressif Systems. In de cursus wordt gebruik gemaakt van het WEMOS D1 R2 ontwikkelbord met dezelfde lay-out als een Arduino Uno.",
