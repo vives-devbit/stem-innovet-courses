@@ -7,7 +7,7 @@
         lg="4"
         xl="3"
       >
-        <v-card outlined>
+        <v-card outlined height="100%">
           <v-card-title class="justify-center primary--text"><h2>Samenwerking</h2></v-card-title>
           <v-card-text class="text--primary text-center">
             <div>Something about git and stuff. Github Rules and all</div>
@@ -22,7 +22,7 @@
         lg="4"
         xl="3"
       >
-        <v-card outlined>
+        <v-card outlined height="100%">
           <v-card-title class="justify-center primary--text"><h2>Doelpubliek</h2></v-card-title>
           <v-card-text class="text--primary">
             <p>
@@ -44,7 +44,7 @@
         lg="4"
         xl="3"
       >
-        <v-card outlined>
+        <v-card outlined height="100%">
           <v-card-title class="justify-center primary--text"><h2>Online Beschikbaar</h2></v-card-title>
           <v-card-text class="text--primary text-center">
             <div>Something about git and stuff. Github Rules and all</div>
