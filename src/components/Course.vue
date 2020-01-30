@@ -1,7 +1,7 @@
 <template>
   <v-card hover class="d-flex flex-column" height="100%">
-    <v-card flat tile class="px-2 pt-2">
-      <v-img class="white--text align-end" :src="course.image" max-height="120" contain></v-img>
+    <v-card flat tile class="">
+      <v-img class="white--text align-end" :src="course.image" max-height="150" ></v-img>
     </v-card>
 
     <v-card flat tile class="flex">
