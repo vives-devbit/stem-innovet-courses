@@ -28,3 +28,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### Images
 
 Free from https://pxhere.com/ or https://pexels.com
+
+Images sizes for course:
+
+* 400 by 120
+* 800 by 240
+
+Or same ratio
