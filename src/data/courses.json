@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "title": "Studiedag Git GitHub VuePress",
+    "title": "Git - GitHub - VuePress",
     "author": "Piet Cordemans & Nico De Witte",
-    "description": "Het ontwikkelen van cursusmateriaal en oefeningen vergt veel tijd. Samenwerken door materiaal te delen via open source kan hierbij helpen. In deze studiedag vertrekken wij vanuit een versiebeheertool genaamd git. Deze tool wordt voornamelijk gebruikt bij softwareprojecten voor het beheren van alle bronbestanden. Deze studiedag is interessant voor alle leerkrachten secundair onderwijs met interesse in software, IoT en het samenwerken voor het ontwikkelen van nieuw cursusmateriaal.",
+    "description": "Het ontwikkelen van cursusmateriaal en oefeningen vergt veel tijd. Samenwerken door materiaal te delen via open source kan hierbij helpen. In deze cursus vertrekken wij vanuit een versiebeheertool genaamd git. Genereer een cursus met Markdown en Vuepress. Deze cursus geeft alle info om je eigen cursus te ontwikkelen en hosten.",
     "github": "https://github.com/VIVES-Elektronica-ICT-Brugge/git-github-vuepress",
     "site": "https://studiedag-git.netlify.com/",
     "time": {
@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "title": "Studiedag Git Github Python RPi LAMP",
+    "title": "Git - Python - RPi - LAMP",
     "author": "Nico De Witte, Piet Cordemans & Sille Van Landschoot",
     "description": "Cursus die je onderdompelt in Git en Github om source code te beheren. Python is een toegankelijke programmeertaal, die de laatste jaren heel populair geworden is. In deze cursus staan wij stil bij een aantal basisconcepten alsook interessante principes zoals OO programmeren.",
     "github": "https://github.com/VIVES-Elektronica-ICT-Brugge/git-python-pi-web",
@@ -24,5 +24,18 @@
       "exercises": "3u"
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1024px-Python.svg.png"
+  }
+  ,
+  {
+    "id": 3,
+    "title": "Oefeningen Blokken",
+    "author": "Piet Cordemans",
+    "description": "Blokken is een Blockly-gebaseerde programmeer omgeving. Deze oefeningen zijn een intuïtieve introductie tot programmeerconcepten. Elke oefening vraagt ongeveer 2 uur en bevat voldoende extra uitdagingen.",
+    "github": "https://github.com/pcordemans/blokken-oefeningen",
+    "site": "https://blokken-oefeningen.netlify.com/",
+    "time": {
+      "exercises": "8u"
+    },
+    "image": "/img/blokken.png"
   }
 ]
