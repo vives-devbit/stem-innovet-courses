@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Studiedag Git GitHub VuePress",
-    "author": "Piet Cordemans",
+    "author": "Piet Cordemans & Nico De Witte",
     "description": "Het ontwikkelen van cursusmateriaal en oefeningen vergt veel tijd. Samenwerken door materiaal te delen via open source kan hierbij helpen. In deze studiedag vertrekken wij vanuit een versiebeheertool genaamd git. Deze tool wordt voornamelijk gebruikt bij softwareprojecten voor het beheren van alle bronbestanden. Deze studiedag is interessant voor alle leerkrachten secundair onderwijs met interesse in software, IoT en het samenwerken voor het ontwikkelen van nieuw cursusmateriaal.",
     "github": "https://github.com/VIVES-Elektronica-ICT-Brugge/git-github-vuepress",
     "site": "https://studiedag-git.netlify.com/",
@@ -15,7 +15,7 @@
   {
     "id": 2,
     "title": "Studiedag Git Github Python RPi LAMP",
-    "author": "Nico De Witte",
+    "author": "Nico De Witte, Piet Cordemans & Sille Van Landschoot",
     "description": "Cursus die je onderdompelt in Git en Github om source code te beheren. Python is een toegankelijke programmeertaal, die de laatste jaren heel populair geworden is. In deze cursus staan wij stil bij een aantal basisconcepten alsook interessante principes zoals OO programmeren.",
     "github": "https://github.com/VIVES-Elektronica-ICT-Brugge/git-python-pi-web",
     "site": "https://workshop-iot-programming.devbit.be/",
