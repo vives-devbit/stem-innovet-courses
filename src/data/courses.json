@@ -56,5 +56,15 @@
     "site": "https://innovet-adafruitio-so.netlify.com/",
     "time": { },
     "image": "/img/adafruit_io.png"
+  },
+  {
+    "id": 6,
+    "title": "Raspberry Pi",
+    "author": "Kris Werbrouck",
+    "description": "De Raspberry PI is een kleine single bord computer. De Raspberry Pi werd ontwikkeld aan de Universiteit van Cambridge en was bedoeld voor educatieve doeleinden. De productie van de eerste Raspberry Pi model B werd op 10 januari 2012 gestart. Sindsdien zijn er verschillende modellen en versies uitgebracht.",
+    "github": "https://github.com/KrisWerbrouck1/Innovet-RaspberryPi-SO",
+    "site": "https://innovet-raspberrypi-so.netlify.com/",
+    "time": { },
+    "image": "/img/raspberry_pi.jpg"
   }
 ]
