@@ -10,7 +10,7 @@
       "theory": "4u",
       "lab": "4u"
     },
-    "image": "http://pngimg.com/uploads/github/github_PNG55.png"
+    "image": "/img/github.png"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
       "theory": "4u",
       "exercises": "3u"
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1024px-Python.svg.png"
+    "image": "/img/python.png"
   },
   {
     "id": 3,
