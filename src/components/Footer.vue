@@ -19,17 +19,21 @@
       </v-col>
       
       <v-col cols="12" sm="4">
-        <v-card color="secondary darken-2" tile flat>
+        <v-card color="secondary darken-2 text-center" tile flat>
           <v-card-text>
             Dit project is een samenwerking tussen VTI Torhout en de VIVES hogeschool.
           </v-card-text>
           <v-container fluid>
-            <v-row>
+            <v-row justify="center">
               <v-col
                 v-for="logo in logos"
                 :key="logo"
                 class="d-flex child-flex"
-                cols="3"
+                cols="4"
+                sm="6"
+                md="4"
+                lg="3"
+                xl="2"
               >
                 <v-card flat tile color="secondary" class="d-flex round-card darken-2">
                   <v-img
@@ -48,28 +52,22 @@
       
       <v-col cols="12" sm="4">
         <v-card class="white--text text-center pa-3"  color="secondary darken-2" tile flat>
-          <v-btn
-            v-for="icon in icons"
-            :key="icon"
-            class="mx-4"
-            icon
-          >
-            <v-icon size="32px">{{ icon }}</v-icon>
-          </v-btn>
-
+          <p>
+            Een website gebracht door
+          </p>
+          <v-img src="../assets/devbit.png" max-height="160" contain></v-img>
+          <div>
+            <v-btn
+              v-for="icon in icons"
+              :key="icon"
+              class="mx-4"
+              icon
+            >
+              <v-icon size="32px">{{ icon }}</v-icon>
+            </v-btn>
+          </div>
         </v-card>
       </v-col>
-      
-      <v-divider></v-divider>
-  
-      <v-card
-        class="flex"
-        tile flat color="secondary darken-2"
-      >
-        <v-card-text class="py-2 white--text text-center">
-          Een website gebracht door <a href="https://www.devbit.be">DevBit</a>
-        </v-card-text>
-      </v-card>
     </v-row>
 
   </v-footer>
