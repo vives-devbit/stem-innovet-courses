@@ -24,8 +24,7 @@
       "exercises": "3u"
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1024px-Python.svg.png"
-  }
-  ,
+  },
   {
     "id": 3,
     "title": "Oefeningen Blokken",
@@ -37,5 +36,15 @@
       "exercises": "8u"
     },
     "image": "/img/blokken.png"
+  },
+  {
+    "id": 4,
+    "title": "Inleiding Arduino",
+    "author": "Kris Werbrouck",
+    "description": "Arduino is een opensource-computerplatform bedoeld om microcontrollers eenvoudig te maken. Dit platform is bedoeld voor iedereen die geïnteresseerd is in het maken en ontwerpen van slimme en creatieve objecten. Een arduino bord bevat een microcontroller en de nodige componenten noodzakelijk om te communiceren met een computer.",
+    "github": "https://github.com/KrisWerbrouck1/Innovet-arduino-so",
+    "site": "https://innovet-arduino-uno.netlify.com/",
+    "time": { },
+    "image": "/img/arduino.png"
   }
 ]
