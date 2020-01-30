@@ -58,12 +58,13 @@
           <a href="https://www.devbit.be"><v-img src="../assets/devbit.png" max-height="160" contain></v-img></a>
           <div>
             <v-btn
-              v-for="icon in icons"
-              :key="icon"
+              v-for="media in social_media"
+              :key="media.icon"
               class="mx-4"
               icon
+              :to="media.url"
             >
-              <v-icon size="32px">{{ icon }}</v-icon>
+              <v-icon size="32px">{{ media.icon }}</v-icon>
             </v-btn>
           </div>
         </v-card>
@@ -76,12 +77,12 @@
 <script>
 export default {
   data: () => ({
-    icons: [
-      'mdi-facebook',
-      'mdi-twitter',
-      'mdi-google-plus',
-      'mdi-linkedin',
-      'mdi-instagram',
+    social_media: [
+      {icon: 'mdi-facebook', url: 'https://www.facebook.com/BachelorElektronicaICTBrugge/'},
+      {icon: 'mdi-twitter', url: 'https://twitter.com/devbitvives'},
+      // {icon: 'mdi-google-plus', url: 'xxxxxxxx'},
+      {icon: 'mdi-linkedin', url: 'https://www.linkedin.com/company/vivesiwt/'},
+      {icon: 'mdi-instagram', url: 'https://www.instagram.com/vives_eo_ict_brugge/'},
     ],
     logos: [
       "https://www.vives.be/sites/default/files/thumbnails/image/Logo-VIVES.png",
