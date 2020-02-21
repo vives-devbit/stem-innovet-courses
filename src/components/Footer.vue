@@ -46,7 +46,8 @@
               :key="media.icon"
               class="mx-4"
               icon
-              :to="media.url"
+              :href="media.url"
+              target="_blank"
             >
               <v-icon size="48px">{{ media.icon }}</v-icon>
             </v-btn>
@@ -71,11 +72,9 @@
 export default {
   data: () => ({
     social_media: [
-      {icon: 'mdi-facebook', url: 'https://www.facebook.com/BachelorElektronicaICTBrugge/'},
-      {icon: 'mdi-twitter', url: 'https://twitter.com/devbitvives'},
-      // {icon: 'mdi-google-plus', url: 'xxxxxxxx'},
-      {icon: 'mdi-linkedin', url: 'https://www.linkedin.com/company/vivesiwt/'},
-      {icon: 'mdi-instagram', url: 'https://www.instagram.com/vives_eo_ict_brugge/'},
+      {icon: 'mdi-facebook', url: 'https://www.facebook.com/VTI-Torhout-247139098672850/'},
+      {icon: 'mdi-twitter', url: 'https://twitter.com/VtiTorhout'},
+      {icon: 'mdi-instagram', url: 'https://www.instagram.com/vti_torhout'},
     ],
     logos: [
       "https://www.vives.be/sites/default/files/thumbnails/image/Logo-VIVES.png",
