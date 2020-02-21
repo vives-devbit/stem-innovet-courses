@@ -52,6 +52,20 @@
               <v-icon size="48px">{{ media.icon }}</v-icon>
             </v-btn>
           </div>
+          <div class="mt-8">
+            <v-chip
+              pill
+              class="ma-2"
+              v-on="on"
+              large
+              href="mailto:kris.werbrouck@sint-rembert.be"
+            >
+              <v-avatar left class="contact">
+                <v-img src="/img/kris_werbrouck.jpg"></v-img>
+              </v-avatar>
+              <span class="font-weight-black pa-4">Kris Werbrouck</span>
+            </v-chip>
+          </div>
         </v-card>
       </v-col>
       
@@ -89,5 +103,9 @@ export default {
 <style scoped>
 .round-card {
   border-radius: 10%;
+}
+.contact {
+  height: 52px !important;
+  width: 52px !important;
 }
 </style>
