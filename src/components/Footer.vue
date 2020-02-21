@@ -8,20 +8,8 @@
       
       <v-col cols="12" sm="4">
         <v-card color="secondary darken-2" tile flat>
-          <v-card-title>IoT, slimme school 2.0.</v-card-title>
           <v-card-text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel libero luctus, pretium nunc sed, varius mauris. Aliquam fringilla, diam a scelerisque auctor, sapien sem consectetur lectus, et vestibulum sapien odio ac quam. Morbi fermentum gravida nisl, laoreet venenatis velit bibendum eget. Nunc interdum eu quam a hendrerit. Proin laoreet metus vitae ultricies eleifend.
-          </v-card-text>
-          <v-card-text>
-            In nisl mauris, porttitor quis ex non, feugiat pellentesque massa. Sed vel feugiat sapien. Nam felis nibh, lacinia et metus in, bibendum maximus turpis. Donec in quam tellus. Donec feugiat scelerisque massa non faucibus. Etiam arcu urna, ultricies at cursus nec, aliquet quis lacus.
-          </v-card-text>
-        </v-card>
-      </v-col>
-      
-      <v-col cols="12" sm="4">
-        <v-card color="secondary darken-2 text-center" tile flat>
-          <v-card-text>
-            Dit project is een samenwerking tussen VTI Torhout en de VIVES hogeschool.
+            STEM-ICT.be werd opgezet door VTI-Torhout en hogeschool VIVES met steun van InnoVET van het Departement Onderwijs en Vorming. InnoVET wil inzetten op de ondersteuning en professionalisering van leerkrachten PV/TV, via duurzame trajecten in samenwerking met partners uit het arbeidsveld.
           </v-card-text>
           <v-container fluid>
             <v-row justify="center">
@@ -52,10 +40,6 @@
       
       <v-col cols="12" sm="4">
         <v-card class="white--text text-center"  color="secondary darken-2" tile flat>
-          <v-card-text>
-            Een website gebracht door
-          </v-card-text>
-          <a href="https://www.devbit.be"><v-img src="../assets/devbit.png" max-height="160" contain></v-img></a>
           <div class="mt-4">
             <v-btn
               v-for="media in social_media"
@@ -64,9 +48,18 @@
               icon
               :to="media.url"
             >
-              <v-icon size="32px">{{ media.icon }}</v-icon>
+              <v-icon size="48px">{{ media.icon }}</v-icon>
             </v-btn>
           </div>
+        </v-card>
+      </v-col>
+      
+      <v-col cols="12" sm="4">
+        <v-card class="white--text text-center"  color="secondary darken-2" tile flat>
+          <v-card-text>
+            Een website gebracht door
+          </v-card-text>
+          <a href="https://www.devbit.be"><v-img src="../assets/devbit.png" max-height="160" contain></v-img></a>
         </v-card>
       </v-col>
     </v-row>
