@@ -25,13 +25,7 @@
           <v-card-title class="justify-center primary--text"><h2>Doelpubliek</h2></v-card-title>
           <v-card-text class="text--primary">
             <p>
-              De cursussen zijn enerzijds op maat gemaakt voor leerlingen van de <strong>3de graad secundair onderwijs</strong> uit de richtingen: elektriciteit-elektronica, industriële wetenschappen en industriële-ICT.
-            </p>
-            <p>
-              Anderzijds komen <strong>richtingen uit het STEM domein</strong> hiervoor ook in aanmerking: technologische wetenschappen en engineering, nformatie- en communicatiewetenschappen, mechatronica en industriële-ICT.
-            </p>
-            <p>
-              Natuurlijk is het cursusmateriaal eveneens geschikt voor <strong>iedereen die interesse heeft in het domein van Internet of Things (IoT)</strong>.
+              Het cursusmateriaal werd ontwikkeld voor leerlingen van de 3de graad secundair onderwijs uit de richtingen Elektriciteit-Elektronica, Industriële Wetenschappen en Industriële-ICT. Het onderwijslandschap is momenteel in verandering en hierop willen we inspelen. Volgende toekomstige richtingen uit het STEM-domein komen in aanmerking om van dit cursusmateriaal gebruik te maken: Informatie- en Communicatiewetenschappen, Technologische Wetenschappen en Engineering, Mechatronica en Industriële-ICT. Het materiaal is ook geschikt voor iedereen die interesse heeft voor ICT, IoT, computernetwerken ...
             </p>
           </v-card-text>
         </v-card>
