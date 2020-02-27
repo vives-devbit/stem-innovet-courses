@@ -6,7 +6,7 @@
         elevation="12"
         class="secondary darken-2"
       >
-        <v-toolbar-title>IoT, slimme school 2.0 </v-toolbar-title>
+        <v-toolbar-title>Cursusmateriaal rond IoT voor STEM-richtingen uit de 3de graad SO</v-toolbar-title>
   
         <v-spacer></v-spacer>
   
