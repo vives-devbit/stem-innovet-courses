@@ -15,7 +15,7 @@
             <v-row justify="center">
               <v-col
                 v-for="logo in logos"
-                :key="logo"
+                :key="logo.image"
                 class="d-flex child-flex"
                 cols="4"
                 sm="6"
@@ -23,14 +23,10 @@
                 lg="3"
                 xl="2"
               >
-                <v-card flat tile color="secondary" class="d-flex round-card darken-2">
-                  <v-img
-                    :src="logo"
-                    aspect-ratio="1"
-                    contain
-                  >
-
-                  </v-img>
+                <v-card flat tile color="secondary" class="darken-2">
+                  <a :href="logo.site" target="_blank">
+                    <v-img :src="logo.image" contain aspect-ratio="1" class="round-card" />
+                  </a>
                 </v-card>
               </v-col>
             </v-row>
@@ -91,10 +87,10 @@ export default {
       {icon: 'mdi-instagram', url: 'https://www.instagram.com/vti_torhout'},
     ],
     logos: [
-      "https://www.vives.be/sites/default/files/thumbnails/image/Logo-VIVES.png",
-      "https://pbs.twimg.com/profile_images/1168805095305359362/nd_w3xch_400x400.jpg",
-      "https://www.klascement.net/organisations/1/9/6/l/ovla_2.jpg",
-      "http://www.technischatheneumkeerbergen.be/wp-content/uploads/2019/12/fullsizeoutput_1d83.jpeg",
+      {image: "./img/logo_vives.png", site: "https://www.vives.be"},
+      {image: "./img/logo_vti.jpg", site: "https://vti.sint-rembert.be/"},
+      {image: "./img/logo_vla_oo.jpg", site: "https://onderwijs.vlaanderen.be/"},
+      {image: "./img/logo_innovet.jpeg", site: "#"},
     ]
   }),
 };
