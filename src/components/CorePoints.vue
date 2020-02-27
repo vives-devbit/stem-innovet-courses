@@ -38,10 +38,10 @@
         xl="3"
       >
         <v-card outlined>
-          <v-card-title class="justify-center primary--text"><h2>Online Beschikbaar</h2></v-card-title>
+          <v-card-title class="justify-center primary--text"><h2>Omschrijving</h2></v-card-title>
           <v-card-text class="text--primary text-center">
-            <div>Something about git and stuff. Github Rules and all</div>
-            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum id felis a fringilla. Etiam pretium, eros mattis luctus sollicitudin, leo sapien varius ex, vitae suscipit ligula mauris vitae augue. Nullam nibh tellus, molestie sed sagittis in, porttitor et lacus. Etiam venenatis dolor non tincidunt cursus. Suspendisse eu fermentum elit. Fusce convallis nec nunc laoreet elementum. Vivamus metus massa, consequat a gravida id, venenatis a nibh.</div>
+            <div>Alle onderdelen van een IoT-omgeving komen voor in het cursusaanbod: van het opmeten van sensordata met Arduino tot het visueel weergeven op een cloudplatform of eigen server met Raspberry PI.</div>
+            <div>Er wordt maximaal gebruik gemaakt van educatief en opensource materiaal en software. </div>
           </v-card-text>
         </v-card>
       </v-col>
