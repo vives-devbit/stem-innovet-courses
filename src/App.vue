@@ -25,7 +25,12 @@
     <v-content>
       <v-img src="./assets/iot_technology.jpg" max-height="400"></v-img>
       <CorePoints />
-      <CourseOverview :courses="courses"/>
+
+      <v-container id="course_overview">
+        <v-container v-for="category in courses" :key="category.category">
+          <CourseOverview :courses="category.courses" :title="category.category"/>
+        </v-container>
+      </v-container>
     </v-content>
     <Footer/>
 

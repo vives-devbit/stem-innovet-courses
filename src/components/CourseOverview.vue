@@ -1,8 +1,8 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="12" fluid class="text-center">
-        <h1 id="course_overview">Beschikbare cursussen</h1>
+      <v-col cols="12" fluid class="text-center title">
+        <h2>{{title}}</h2>
       </v-col>
     </v-row>
 
@@ -24,7 +24,7 @@
 import Course from './Course';
 
 export default {
-  props: ['courses'],
+  props: ['courses', 'title'],
   components: {
     Course,
   },
@@ -32,4 +32,11 @@ export default {
 </script>
 
 <style scoped>
+.title {
+  color: white;
+  background-color: #171717;
+  padding: 24px;
+  margin-top: 12px;
+  margin-bottom: 12px;;
+}
 </style>>
