@@ -70,7 +70,7 @@
           <v-card-text>
             Een website gebracht door
           </v-card-text>
-          <a href="https://www.devbit.be" target="_blank"><v-img src="../assets/devbit.png" max-height="160" contain></v-img></a>
+          <a href="https://www.vives.be" target="_blank"><v-img src="../assets/devbit.png" max-height="160" contain></v-img></a>
         </v-card>
       </v-col>
     </v-row>
