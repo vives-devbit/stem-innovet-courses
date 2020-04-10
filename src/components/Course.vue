@@ -1,5 +1,5 @@
 <template>
-  <v-card hover class="d-flex flex-column" height="100%">
+  <v-card hover class="d-flex flex-column" height="100%" :href="course.site" target="_blank">
     <v-card flat tile class="">
       <v-img class="white--text align-end" :src="course.image" max-height="150" ></v-img>
     </v-card>
