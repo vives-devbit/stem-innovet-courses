@@ -37,6 +37,9 @@
       <v-col cols="12" sm="4">
         <v-card class="white--text text-center"  color="secondary darken-2" tile flat>
           <div class="mt-4">
+            Contacteer ons via sociale media
+          </div>
+          <div class="mt-4">
             <v-btn
               v-for="media in social_media"
               :key="media.icon"
@@ -48,7 +51,10 @@
               <v-icon size="48px">{{ media.icon }}</v-icon>
             </v-btn>
           </div>
-          <div class="mt-8">
+          <div class="mt-4">
+            of via mail
+          </div>
+          <div class="mt-4">
             <v-chip
               pill
               class="ma-2"
@@ -59,7 +65,10 @@
               <v-avatar left class="contact">
                 <v-img src="/img/kris_werbrouck.jpg"></v-img>
               </v-avatar>
-              <span class="font-weight-black pa-4">Kris Werbrouck</span>
+              <div class="pa-4">
+                <div class="font-weight-black">Kris Werbrouck</div>
+                <div>Leerkracht VTI Torhout</div>
+              </div>
             </v-chip>
           </div>
         </v-card>
