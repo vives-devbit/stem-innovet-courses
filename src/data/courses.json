@@ -3,54 +3,64 @@
     "category": "Internet of Things cursussen",
     "courses": [
       {
-        "id": 4,
-        "title": "Inleiding Arduino",
-        "author": "Kris Werbrouck",
-        "description": "Arduino is een opensource-computerplatform bedoeld om microcontrollers eenvoudig te maken. Dit platform is bedoeld voor iedereen die geïnteresseerd is in het maken en ontwerpen van slimme en creatieve objecten. Een arduino bord bevat een microcontroller en de nodige componenten noodzakelijk om te communiceren met een computer.",
-        "github": "https://github.com/KrisWerbrouck1/Innovet-arduino-so",
-        "site": "https://innovet-arduino-uno.netlify.com/",
-        "time": { },
-        "image": "/img/arduino.png"
-      },
-      {
-        "id": 5,
+        "id": 1,
         "title": "Inleiding IoT",
         "author": "Kris Werbrouck",
-        "description": "Het Internet of Things (IoT) - in het Nederlands het Internet der Dingen - verwijst naar het geheel van apparaten die verbonden zijn met het internet. Hierdoor kunnen deze apparaten gegevens naar de cloud of een eigen database sturen, communiceren met elkaar, met computers, smartphones, ...",
+        "description": "Het Internet of Things (IoT), in het Nederlands het Internet der Dingen, verwijst naar het geheel van apparaten die verbonden zijn met het internet. In deze cursus worden enkele voorbeelden van IoT bestudeerd, wordt het blokschema van een IoT-platform opgesteld en de verschillende vormen van communicatie besproken.",
         "github": "https://github.com/KrisWerbrouck1/Innovet_IOT_Inleiding_SO",
         "site": "https://innovet-inleiding-iot.netlify.com/",
         "time": { },
         "image": "/img/iot.jpg"
       },
+	  {
+        "id": 2,
+        "title": "Basiscursus Arduino",
+        "author": "Kris Werbrouck",
+        "description": "Arduino is een opensource-platform om microcontrollers eenvoudig te programmeren. In de cursus wordt aangeleeerd hoe informatie ingelezen wordt van sensoren, worden actuatoren aangestuurd en worden de basisprogrammeerstructuren aangeleerd. Er wordt gebruik gemaakt van een Arduino UNO.",
+        "github": "https://github.com/KrisWerbrouck1/Innovet-arduino-so",
+        "site": "https://innovet-arduino-uno.netlify.com/",
+        "time": { },
+        "image": "/img/arduino.png"
+      },
+	  {
+        "id": 3,
+        "title": "ESP8266",
+        "author": "Kris Werbrouck",
+        "description": "De ESP8266 is een goedkope 32-bit microcontroller met Wi-Fi mogelijkheid die te programmeren is met Arduino IDE. In de cursus wordt de pin-layout besproken van het WEMOS D1R2 ontwikkelbord, wordt er een eenvoudige webserver opgezet en wordt er informatie verstuurd via een GET- en POST request.",
+        "github": "https://github.com/KrisWerbrouck1/Innovet-ESP8266-SO",
+        "site": "https://innovet-esp8266-so.netlify.com/",
+        "time": { },
+        "image": "/img/esp8266.png"
+      },
       {
-        "id": 6,
+        "id": 4,
         "title": "Adafruit.io",
         "author": "Kris Werbrouck",
-        "description": "Adafruit.io is een cloud service die primair bedoeld is voor het opslaan en ophalen van gegevens, maar het kan veel meer dan alleen dat! Het is een systeem dat gegevens nuttig maakt. De focus ligt daarbij op gebruiksgemak en het ondersteunen ​​van eenvoudige communicatie met weinig programmeerwerk.",
+        "description": "Adafruit.io is een IoT-platform om data afkomstig van sensoren te bewaren en visueel weer te geven, bovendien kunnen actuatoren aangestuurd worden. In deze cursus wordt gebruik gemaakt van de ESP8266 micrcontroller.",
         "github": "https://github.com/KrisWerbrouck1/Innovet-AdafruitIO-SO",
         "site": "https://innovet-adafruitio-so.netlify.com/",
         "time": { },
         "image": "/img/adafruit_io.png"
       },
-      {
-        "id": 7,
-        "title": "Raspberry Pi",
+	  {
+        "id": 5,
+        "title": "AllThingsTalk",
         "author": "Kris Werbrouck",
-        "description": "De Raspberry PI is een kleine single bord computer. De Raspberry Pi werd ontwikkeld aan de Universiteit van Cambridge en was bedoeld voor educatieve doeleinden. De productie van de eerste Raspberry Pi model B werd op 10 januari 2012 gestart. Sindsdien zijn er verschillende modellen en versies uitgebracht.",
+        "description": "ALL Things Talk is een van oorsprong Vlaams IoT-platform om data afkomstig van sensoren te bewaren en visueel weer te geven, bovendien kunnen actuatoren aangestuurd worden. In deze cursus wordt gebruik gemaakt van de ESP8266 microcontroller.",
+        "github": "https://github.com/KrisWerbrouck1/Innovet-All-Things-Talk-SO",
+        "site": "https://innovet-all-things-talk-so.netlify.com/",
+        "time": { },
+        "image": "/img/AllThingsTalk.png"
+      },
+      {
+        "id": 4,
+        "title": "Raspberry Pi - LAMP - Grafana",
+        "author": "Kris Werbrouck",
+        "description": "De Raspberry PI is een kleine single bord computer. De Raspberry Pi werd ontwikkeld aan de Universiteit van Cambridge en was bedoeld voor educatieve doeleinden. In deze cursus wordt de installatie van Raspbian besproken, het gebruik op afstand via VNC Viewer, het opzetten van een LAMP-server, het aanmaken van een MySQL database om informatie afkomstig van sensoren te bewaren en deze grafisch weer te geven met Grafana.",
         "github": "https://github.com/KrisWerbrouck1/Innovet-RaspberryPi-SO",
         "site": "https://innovet-raspberrypi-so.netlify.com/",
         "time": { },
         "image": "/img/raspberry_pi.jpg"
-      },
-      {
-        "id": 8,
-        "title": "ESP8266",
-        "author": "Kris Werbrouck",
-        "description": "De ESP8266 is een goedkope 32 bit microcontroller met Wi-Fi mogelijkheid. De ESP8266 is ontwikkeld en wordt geproduceerd door de Chinese fabrikant Espressif Systems. In de cursus wordt gebruik gemaakt van het WEMOS D1 R2 ontwikkelbord met dezelfde lay-out als een Arduino Uno.",
-        "github": "https://github.com/KrisWerbrouck1/Innovet-ESP8266-SO",
-        "site": "https://innovet-esp8266-so.netlify.com/",
-        "time": { },
-        "image": "/img/esp8266.png"
       }
     ]
   },
@@ -58,12 +68,12 @@
     "category": "Generieke ICT cursussen",
     "courses": [
       {
-        "id": 1,
+        "id": 10,
         "title": "Git - GitHub - VuePress",
         "author": "Piet Cordemans & Nico De Witte",
         "description": "Het ontwikkelen van cursusmateriaal en oefeningen vergt veel tijd. Samenwerken door materiaal te delen via open source kan hierbij helpen. In deze cursus vertrekken wij vanuit een versiebeheertool genaamd git. Genereer een cursus met Markdown en Vuepress. Deze cursus geeft alle info om je eigen cursus te ontwikkelen en hosten.",
         "github": "https://github.com/VIVES-Elektronica-ICT-Brugge/git-github-vuepress",
-        "site": "https://studiedag-git.netlify.com/",
+        "site": "https://devbit-git-course.netlify.com/",
         "time": {
           "theory": "4u",
           "lab": "4u"
@@ -71,7 +81,7 @@
         "image": "/img/github.png"
       },
       {
-        "id": 2,
+        "id": 11,
         "title": "Git - Python - RPi - LAMP",
         "author": "Nico De Witte, Piet Cordemans & Sille Van Landschoot",
         "description": "Cursus die je onderdompelt in Git en Github om source code te beheren. Python is een toegankelijke programmeertaal, die de laatste jaren heel populair geworden is. In deze cursus staan wij stil bij een aantal basisconcepten alsook interessante principes zoals OO programmeren.",
@@ -83,17 +93,45 @@
         },
         "image": "/img/python.png"
       },
-      {
-        "id": 3,
+	  {
+        "id": 12,
         "title": "Oefeningen Blokken",
         "author": "Piet Cordemans",
         "description": "Blokken is een Blockly-gebaseerde programmeer omgeving. Deze oefeningen zijn een intuïtieve introductie tot programmeerconcepten. Elke oefening vraagt ongeveer 2 uur en bevat voldoende extra uitdagingen.",
         "github": "https://github.com/pcordemans/blokken-oefeningen",
-        "site": "https://blokken-oefeningen.netlify.com/",
+        "github": "",
+		"site": "https://blokken-oefeningen.netlify.com/",
         "time": {
           "exercises": "8u"
         },
         "image": "/img/blokken.png"
+      },
+	  {
+        "id": 13,
+        "title": "Python",
+        "author": "Pieter Spronck",
+        "description": "Python is een toegankelijke programmeertaal, die de laatste jaren heel populair geworden is. In deze zeer uitgebreide cursus van Pieter Spronck worden de basisprogrammeerstructuren besproken maar ook Object georiënteerd programmeren.",
+        "site": "http://www.spronck.net/pythonbook/pythonboek.pdf",
+		"time": { },
+        "image": "/img/python.png"
+      },
+	  {
+        "id": 14,
+        "title": "Edictum",
+        "author": "Edictum",
+        "description": "Edictum is een Nederlandse site waar verschillende online cursussen beschikbaar zijn rond Scratch, Java, MySQL, Arduino, Microbit, Raspberry pi en computernetwerken.",
+        "site": "http://www.edictum.nl/",
+		"time": { },
+        "image": "/img/edictum.png"
+      },
+      {
+        "id": 15,
+        "title": "Youtube lessen Python",
+        "author": "Dirk Peeters",
+        "description": "Deze zeer laagdrempelige youtube filmpjes rond Python werden ontwikkeld aan Universiteit Hasselt. Er wordt gebruik gemaakt van het online platform repl.it.",
+        "site": "https://www.youtube.com/channel/UC4UDvc4QDbFrPexszpggPsg",
+		"time": { },
+        "image": "/img/python.png"
       }
     ]
   }
