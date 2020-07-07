@@ -12,8 +12,18 @@
         "time": { },
         "image": "/img/iot.jpg"
       },
-	    {
+      {
         "id": 2,
+        "title": "Inleiding IoT iSTEM",
+        "author": "Stijn Ceuppens",
+        "description": "Inleiding rond IoT met iSTEM didactiek waarin de leerlingen vooral zelf aan de slag gaan. Ze kijken eerst naar wat ze al weten, bestuderen bestaande voorbeelden, doen opzoekwerk, denke zelf na, en zijn kritisch. Uit deze inzichten filteren ze zelf een genuanceerd beeld van wat IoT juist is.",
+        "github": "https://github.com/KrisWerbrouck1/Innovet-IOT-Inleiding-iStem",
+        "site": "https://github.com/KrisWerbrouck1/Innovet-IOT-Inleiding-iStem/blob/master/IoT%20-%20Inleiding%20-%20iSTEM.docx",
+        "time": { },
+        "image": "/img/iSTEM.png"
+      },
+	    {
+        "id": 3,
         "title": "Basiscursus Arduino",
         "author": "Kris Werbrouck",
         "description": "Arduino is een opensource-platform om microcontrollers eenvoudig te programmeren. In de cursus wordt aangeleeerd hoe informatie ingelezen wordt van sensoren, worden actuatoren aangestuurd en worden de basisprogrammeerstructuren aangeleerd. Er wordt gebruik gemaakt van een Arduino UNO.",
@@ -23,7 +33,7 @@
         "image": "/img/arduino.png"
       },
 	    {
-        "id": 3,
+        "id": 4,
         "title": "ESP8266",
         "author": "Kris Werbrouck",
         "description": "De ESP8266 is een goedkope 32-bit microcontroller met Wi-Fi mogelijkheid die te programmeren is met Arduino IDE. In de cursus wordt de pin-layout besproken van het WEMOS D1R2 ontwikkelbord, wordt er een eenvoudige webserver opgezet en wordt er informatie verstuurd via een GET- en POST request.",
@@ -33,7 +43,7 @@
         "image": "/img/esp8266.png"
       },
       {
-        "id": 4,
+        "id": 5,
         "title": "Adafruit.io",
         "author": "Kris Werbrouck",
         "description": "Adafruit.io is een IoT-platform om data afkomstig van sensoren te bewaren en visueel weer te geven, bovendien kunnen actuatoren aangestuurd worden. In deze cursus wordt gebruik gemaakt van de ESP8266 microcontroller.",
@@ -43,7 +53,7 @@
         "image": "/img/adafruit_io.png"
       },
 	    {
-        "id": 5,
+        "id": 6,
         "title": "AllThingsTalk",
         "author": "Kris Werbrouck",
         "description": "All Things Talk is een van oorsprong Vlaams IoT-platform om data afkomstig van sensoren te bewaren en visueel weer te geven, bovendien kunnen actuatoren aangestuurd worden. In deze cursus wordt gebruik gemaakt van de ESP8266 microcontroller.",
@@ -53,7 +63,7 @@
         "image": "/img/allthingstalk.png"
       },
       {
-        "id": 6,
+        "id": 7,
         "title": "Raspberry Pi - LAMP - Grafana",
         "author": "Kris Werbrouck",
         "description": "De Raspberry PI is een kleine single bord computer. De Raspberry Pi werd ontwikkeld aan de Universiteit van Cambridge en was bedoeld voor educatieve doeleinden. In deze cursus wordt de installatie van Raspbian besproken, het gebruik op afstand via VNC Viewer, het opzetten van een LAMP-server, het aanmaken van een MySQL database om informatie afkomstig van sensoren te bewaren en deze grafisch weer te geven met Grafana.",
