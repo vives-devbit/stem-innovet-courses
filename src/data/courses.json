@@ -44,6 +44,16 @@
       },
       {
         "id": 5,
+        "title": "Sensoren en actuatoren",
+        "author": "Kris Werbrouck",
+        "description": "Een overzicht van een aantal veel gebruikte sensoren en actuatoren die geschikt zijn voor zowel de arduino UNO als het ontwikkelbord met de ESP8266.",
+        "github": "https://github.com/KrisWerbrouck1/Innovet_Sensoren_en_Actuatoren",
+        "site": "https://innovet-sensoren-en-actuatoren.netlify.app/",
+        "time": { },
+        "image": "/img/sensorenActuatoren.png"
+      },
+	  {
+        "id": 6,
         "title": "Adafruit.io",
         "author": "Kris Werbrouck",
         "description": "Adafruit.io is een IoT-platform om data afkomstig van sensoren te bewaren en visueel weer te geven, bovendien kunnen actuatoren aangestuurd worden. In deze cursus wordt gebruik gemaakt van de ESP8266 microcontroller.",
@@ -53,7 +63,7 @@
         "image": "/img/adafruit_io.png"
       },
 	    {
-        "id": 6,
+        "id": 7,
         "title": "AllThingsTalk",
         "author": "Kris Werbrouck",
         "description": "All Things Talk is een van oorsprong Vlaams IoT-platform om data afkomstig van sensoren te bewaren en visueel weer te geven, bovendien kunnen actuatoren aangestuurd worden. In deze cursus wordt gebruik gemaakt van de ESP8266 microcontroller.",
@@ -63,7 +73,7 @@
         "image": "/img/allthingstalk.png"
       },
       {
-        "id": 7,
+        "id": 8,
         "title": "Raspberry Pi - LAMP - Grafana",
         "author": "Kris Werbrouck",
         "description": "De Raspberry PI is een kleine single bord computer. De Raspberry Pi werd ontwikkeld aan de Universiteit van Cambridge en was bedoeld voor educatieve doeleinden. In deze cursus wordt de installatie van Raspbian besproken, het gebruik op afstand via VNC Viewer, het opzetten van een LAMP-server, het aanmaken van een MySQL database om informatie afkomstig van sensoren te bewaren en deze grafisch weer te geven met Grafana.",
