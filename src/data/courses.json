@@ -81,6 +81,36 @@
         "site": "https://innovet-raspberrypi-so.netlify.com/",
         "time": { },
         "image": "/img/raspberry_pi.jpg"
+      },
+      {
+        "id": 9,
+        "title": "ESP 32",
+        "author": "Kris Werbrouck",
+        "description": "De ESP 32 is een goedkope 32-bit microcontroller voor IoT-toepassingen die beschikt over bluetooth en wifi-communicatie. In deze cursus worden programma's geschreven in Arduino IDE",
+        "github": "https://github.com/KrisWerbrouck1/InnovetESP32Arduino",
+        "site": "https://innovetesp32arduino.netlify.app/",
+        "time": { },
+        "image": "/img/esp32.png"
+      },
+      {
+        "id": 10,
+        "title": "Raspberry Pi en GPIO",
+        "author": "Kris Werbrouck",
+        "description": "De Raspberry PI is een kleine single bord computer. De Raspberry Pi werd ontwikkeld aan de Universiteit van Cambridge en was bedoeld voor educatieve doeleinden. In deze cursus wordt de data van enkele sensoren ingelezen en actuatoren aangestuurd via GPIO.",
+        "github": "https://github.com/KrisWerbrouck1/Innovet-RaspberryPiGPIO",
+        "site": "https://innovet-raspberrypigpio.netlify.app/",
+        "time": { },
+        "image": "/img/raspberry_pi.jpg"
+      },
+      {
+        "id": 11,
+        "title": "Microsoft Azure IoT-Central",
+        "author": "Kris Werbrouck",
+        "description": "IoT-Central is een onderdeel van de cloud omgeving van Microsoft Azure. In deze cursus wordt een esp8266, esp32 en raspberry pi verbonden met Azure IoT-Central.",
+        "github": "https://github.com/KrisWerbrouck1/InnovetAzure-IoT",
+        "site": "https://innovet-azure-iot-central.netlify.app/",
+        "time": { },
+        "image": "/img/IoTCentral.png"
       }
     ]
   },
@@ -88,7 +118,7 @@
     "category": "Generieke ICT cursussen",
     "courses": [
       {
-        "id": 10,
+        "id": 20,
         "title": "Git - GitHub - VuePress",
         "author": "Piet Cordemans & Nico De Witte",
         "description": "Het ontwikkelen van cursusmateriaal en oefeningen vergt veel tijd. Samenwerken door materiaal te delen via open source kan hierbij helpen. In deze cursus vertrekken wij vanuit een versiebeheertool genaamd git. Genereer een cursus met Markdown en VuePress. Deze cursus geeft alle info om je eigen cursus te ontwikkelen en hosten.",
@@ -101,7 +131,7 @@
         "image": "/img/github.png"
       },
       {
-        "id": 11,
+        "id": 21,
         "title": "Git - Python - RPi - LAMP",
         "author": "Nico De Witte, Piet Cordemans & Sille Van Landschoot",
         "description": "Cursus die je onderdompelt in Git en Github om source code te beheren. Python is een toegankelijke programmeertaal, die de laatste jaren heel populair geworden is. In deze cursus staan wij stil bij een aantal basisconcepten alsook interessante principes zoals OO programmeren.",
@@ -114,7 +144,7 @@
         "image": "/img/python.png"
       },
       {
-        "id": 12,
+        "id": 22,
         "title": "Oefeningen Blokken",
         "author": "Piet Cordemans",
         "description": "Blokken is een Blockly-gebaseerde programmeer omgeving. Deze oefeningen zijn een intuïtieve introductie tot programmeerconcepten. Elke oefening vraagt ongeveer 2 uur en bevat voldoende extra uitdagingen.",
@@ -126,7 +156,7 @@
         "image": "/img/blokken.png"
       },
       {
-        "id": 13,
+        "id": 23,
         "title": "Python",
         "author": "Pieter Spronck",
         "description": "Python is een toegankelijke programmeertaal, die de laatste jaren heel populair geworden is. In deze zeer uitgebreide cursus van Pieter Spronck worden de basisprogrammeerstructuren besproken maar ook Object georiënteerd programmeren.",
@@ -135,7 +165,7 @@
         "image": "/img/python.png"
       },
       {
-        "id": 14,
+        "id": 24,
         "title": "Edictum",
         "author": "Edictum",
         "description": "Edictum is een Nederlandse site waar verschillende online cursussen beschikbaar zijn rond Scratch, Java, MySQL, Arduino, Microbit, Raspberry pi en computernetwerken.",
@@ -144,7 +174,7 @@
         "image": "/img/edictum.png"
       },
       {
-        "id": 15,
+        "id": 25,
         "title": "Youtube lessen Python",
         "author": "Dirk Peeters",
         "description": "Deze zeer laagdrempelige youtube filmpjes rond Python werden ontwikkeld aan Universiteit Hasselt. Er wordt gebruik gemaakt van het online platform repl.it.",
