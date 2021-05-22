@@ -177,7 +177,7 @@
         "id": 25,
         "title": "Youtube lessen Python",
         "author": "Dirk Peeters",
-        "description": "Deze zeer laagdrempelige youtube filmpjes rond Python werden ontwikkeld aan Universiteit Hasselt. Er wordt gebruik gemaakt van het online platform repl.it.",
+        "description": "Deze zeer laagdrempelige youtube filmpjes rond Python werden ontwikkeld aan Universiteit Hasselt. De bijhorende oefeningen zijn beschikbaar op het online platform dodona van UGent.",
         "site": "https://www.youtube.com/channel/UC4UDvc4QDbFrPexszpggPsg",
         "time": { },
         "image": "/img/python.png"
