@@ -35,12 +35,12 @@
       <v-row>
         <v-col cols="6">
           <v-btn color="primary" text :href="course.site" target="_blank" block>
-            <v-icon>mdi-web</v-icon>&nbsp;Cursus
+            <v-icon left>mdi-web</v-icon>&nbsp;Cursus
           </v-btn>
         </v-col>
         <v-col cols="6">
           <v-btn color="green" text :href="course.github" target="_blank" block>
-            <v-icon>mdi-github-circle</v-icon>&nbsp;Github
+            <v-icon left>mdi-github</v-icon>&nbsp;Github
           </v-btn>
         </v-col>
       </v-row>
