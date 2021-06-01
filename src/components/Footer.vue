@@ -4,7 +4,7 @@
     color="secondary darken-2"
   >
 
-    <v-row>
+    <v-row dense>
       
       <v-col cols="12" sm="4">
         <v-card color="secondary darken-2" tile flat>
