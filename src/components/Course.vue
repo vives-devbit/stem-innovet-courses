@@ -32,18 +32,20 @@
     <v-divider class="mx-4"></v-divider>
 
     <v-card tile flat class="mx-4">
-      <v-row>
-        <v-col cols="6">
-          <v-btn color="primary" text :href="course.site" target="_blank" block>
-            <v-icon left>mdi-web</v-icon>&nbsp;Cursus
-          </v-btn>
-        </v-col>
-        <v-col cols="6">
-          <v-btn color="green" text :href="course.github" target="_blank" block>
-            <v-icon left>mdi-github</v-icon>&nbsp;Github
-          </v-btn>
-        </v-col>
-      </v-row>
+      <v-container class="d-flex flex-row justify-center flex-wrap">
+        <v-btn v-if="course.site" color="primary" text :href="course.site" target="_blank">
+          <v-icon left>mdi-web</v-icon>Cursus
+        </v-btn>
+        <v-btn v-if="course.github" color="green" text :href="course.github" target="_blank">
+          <v-icon left>mdi-github</v-icon>Github
+        </v-btn>
+        <v-btn v-if="course.youtube" color="red" text :href="course.youtube" target="_blank">
+          <v-icon left>mdi-youtube</v-icon>Youtube
+        </v-btn>
+        <v-btn v-if="course.file" color="black" text :href="course.file" target="_blank">
+          <v-icon left>mdi-file</v-icon>Document
+        </v-btn>
+      </v-container>
     </v-card>
   </v-card>
 </template>

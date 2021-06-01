@@ -18,7 +18,7 @@
         "author": "Stijn Ceuppens",
         "description": "Inleiding rond IoT met iSTEM didactiek waarin de leerlingen vooral zelf aan de slag gaan. Ze kijken eerst naar wat ze al weten, bestuderen bestaande voorbeelden, doen opzoekwerk, denke zelf na, en zijn kritisch. Uit deze inzichten filteren ze zelf een genuanceerd beeld van wat IoT juist is.",
         "github": "https://github.com/KrisWerbrouck1/Innovet-IOT-Inleiding-iStem",
-        "site": "https://github.com/KrisWerbrouck1/Innovet-IOT-Inleiding-iStem/blob/master/IoT%20-%20Inleiding%20-%20iSTEM.docx",
+        "file": "https://github.com/KrisWerbrouck1/Innovet-IOT-Inleiding-iStem/raw/master/IoT%20-%20Inleiding%20-%20iSTEM.docx",
         "time": { },
         "image": "/img/iSTEM.png"
       },
@@ -160,7 +160,7 @@
         "title": "Python",
         "author": "Pieter Spronck",
         "description": "Python is een toegankelijke programmeertaal, die de laatste jaren heel populair geworden is. In deze zeer uitgebreide cursus van Pieter Spronck worden de basisprogrammeerstructuren besproken maar ook Object georiënteerd programmeren.",
-        "site": "http://www.spronck.net/pythonbook/pythonboek.pdf",
+        "file": "http://www.spronck.net/pythonbook/pythonboek.pdf",
         "time": { },
         "image": "/img/python.png"
       },
@@ -178,7 +178,7 @@
         "title": "Youtube lessen Python",
         "author": "Dirk Peeters",
         "description": "Deze zeer laagdrempelige youtube filmpjes rond Python werden ontwikkeld aan Universiteit Hasselt. De bijhorende oefeningen zijn beschikbaar op het online platform dodona van UGent.",
-        "site": "https://www.youtube.com/channel/UC4UDvc4QDbFrPexszpggPsg",
+        "youtube": "https://www.youtube.com/channel/UC4UDvc4QDbFrPexszpggPsg",
         "time": { },
         "image": "/img/python.png"
       }
