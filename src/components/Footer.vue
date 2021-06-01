@@ -9,7 +9,7 @@
       <v-col cols="12" sm="4">
         <v-card color="secondary darken-2" tile flat>
           <v-card-text>
-            STEM-ICT.be werd opgezet door VTI-Torhout en hogeschool VIVES met steun van InnoVET van het Departement Onderwijs en Vorming. InnoVET wil inzetten op de ondersteuning en professionalisering van leerkrachten PV/TV, via duurzame trajecten in samenwerking met partners uit het arbeidsveld.
+            De inhoud van STEM-ICT.be werd opgezet door VTI-Torhout in samenwerking met hogescholen VIVES en HoWest en met steun van InnoVET van het Departement Onderwijs en Vorming. InnoVET wil inzetten op de ondersteuning en professionalisering van leerkrachten PV/TV, via duurzame trajecten in samenwerking met partners uit het arbeidsveld.
           </v-card-text>
           <v-container fluid>
             <v-row justify="center">
@@ -97,6 +97,7 @@ export default {
     ],
     logos: [
       {image: "./img/logo_vives.png", site: "https://www.vives.be"},
+      {image: "./img/logo_MCT.jpg", site: "https://www.howest.be/nl/opleidingen/bachelor/multimedia-en-creatieve-technologie"},
       {image: "./img/logo_vti.jpg", site: "https://vti.sint-rembert.be/"},
       {image: "./img/logo_vla_oo.jpg", site: "https://onderwijs.vlaanderen.be/"},
       {image: "./img/logo_innovet.jpeg", site: "#"},
