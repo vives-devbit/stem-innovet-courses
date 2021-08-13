@@ -111,7 +111,7 @@
         "site": "https://innovet-mqtt.netlify.app/",
         "time": { },
         "image": "/img/mqtt.png"
-      }
+      },
       {
         "id": 12,
         "title": "Microsoft Azure IoT-Central",
@@ -121,7 +121,7 @@
         "site": "https://innovet-azure-iot-central.netlify.app/",
         "time": { },
         "image": "/img/IoTCentral.png"
-      }
+      },
       {
         "id": 13,
         "title": "Microsoft Azure IoT-Hub",
