@@ -104,6 +104,16 @@
       },
       {
         "id": 11,
+        "title": "MQTT",
+        "author": "Kris Werbrouck",
+        "description": "Het MQTT-protocol (Message Queuing Telemetry Transport) wordt zeer veel gebruikt in IoT toepassingen om sensordata te versturen en deze terug op te halen. Er wordt gebruikt gemaakt van de publieke HiveMQ broker. In deze cursus zijn voorbeelden opgenomen voor een esp8266, esp32 en raspberry pi ",
+        "github": "https://github.com/KrisWerbrouck1/InnovetMQTT.git",
+        "site": "https://innovet-mqtt.netlify.app/",
+        "time": { },
+        "image": "/img/mqtt.png"
+      },
+      {
+        "id": 12,
         "title": "Microsoft Azure IoT-Central",
         "author": "Kris Werbrouck",
         "description": "IoT-Central is een onderdeel van de cloud omgeving van Microsoft Azure. In deze cursus wordt een esp8266, esp32 en raspberry pi verbonden met Azure IoT-Central.",
@@ -111,6 +121,16 @@
         "site": "https://innovet-azure-iot-central.netlify.app/",
         "time": { },
         "image": "/img/IoTCentral.png"
+      },
+      {
+        "id": 13,
+        "title": "Microsoft Azure IoT-Hub",
+        "author": "Kris Werbrouck",
+        "description": "IoT-Hub is een onderdeel van de cloud omgeving van Microsoft Azure. In deze cursus wordt een esp8266, esp32 en raspberry pi verbonden met Azure IoT-Hub. Vervolgens wordt deze data via Node-RED in een My SQL database bewaard.",
+        "github": "https://github.com/KrisWerbrouck1/InnovetAzure-IoT-Hub.git",
+        "site": "https://innovet-iot-hub.netlify.app/",
+        "time": { },
+        "image": "/img/IoTHub.png"
       }
     ]
   },
