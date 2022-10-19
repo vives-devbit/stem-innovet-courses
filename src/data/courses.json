@@ -131,6 +131,26 @@
         "site": "https://innovet-iot-hub.netlify.app/",
         "time": { },
         "image": "/img/IoTHub.png"
+      },
+      {
+        "id": 14,
+        "title": "NRF24 communicatie",
+        "author": "Koen Geeraert",
+        "description": "De NRF24 is een draadloze communicatie module. In deze cursus wordt de NRF24 verbonden met zowel de Arduino UNO, ESP8266 als ESP32.",
+        "github": "https://github.com/VTITorhout/com_NRF24",
+        "site": "https://glowing-travesseiro-100bb2.netlify.app/",
+        "time": { },
+        "image": "/img/nrf24.png"
+      },
+      {
+        "id": 15,
+        "title": "GPS communicatie met NEO6M",
+        "author": "Koen Geeraert",
+        "description": "Met de NEO6M module is het mogelijk via GPS de locatie te bepalen. In deze curus wordt de NEO6M verbonden met zowel de Arduino UNO, ESP8266 als ESP32.",
+        "github": "https://github.com/VTITorhout/com_gps",
+        "site": "https://aquamarine-nougat-3b032c.netlify.app/",
+        "time": { },
+        "image": "/img/gps.png"
       }
     ]
   },
