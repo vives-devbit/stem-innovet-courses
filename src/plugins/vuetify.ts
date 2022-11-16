@@ -10,8 +10,8 @@ const myCustomTheme = {
   colors: {
     background: '#FFFFFF',
     surface: '#FFFFFF',
-    primary: '#1976d2',
-    secondary: '#03DAC6',
+    primary: '#333333',
+    secondary: '#1976d2',
     ternary: '#1e1e1e',
     'ternary-lighten-2': '#3e3e3e',
     error: '#B00020',

@@ -23,11 +23,11 @@ import courses from './data/courses.json';
       <v-img :src="hero" cover max-height="360"></v-img>
       <CorePoints />
 
-      <v-container id="course_overview">
-        <v-container v-for="category in courses" :key="category.category">
+      <!-- <v-container id="course_overview"> -->
+        <div v-for="category in courses" :key="category.category">
           <CourseOverview :courses="category.courses" :title="category.category"/>
-        </v-container>
-      </v-container>
+        </div>
+      <!-- </v-container> -->
     </v-main>
 
     <BottomFooter />
