@@ -9,7 +9,7 @@
         "author": "Kris Werbrouck",
         "description": "Het Internet of Things (IoT), in het Nederlands het Internet der Dingen, verwijst naar het geheel van apparaten die verbonden zijn met het internet. In deze cursus worden enkele voorbeelden van IoT bestudeerd, wordt het blokschema van een IoT-platform opgesteld en de verschillende vormen van communicatie besproken.",
         "github": "https://github.com/KrisWerbrouck1/Innovet_IOT_Inleiding_SO",
-        "site": "https://innovet-inleiding-iot.netlify.com/",
+        "site": "https://innovet-inleiding-iot.netlify.app/",
         "time": { },
         "image": "/img/iot.jpg"
       },
@@ -29,7 +29,7 @@
         "author": "Kris Werbrouck",
         "description": "Arduino is een opensource-platform om microcontrollers eenvoudig te programmeren. In de cursus wordt aangeleeerd hoe informatie ingelezen wordt van sensoren, worden actuatoren aangestuurd en worden de basisprogrammeerstructuren aangeleerd. Er wordt gebruik gemaakt van een Arduino UNO.",
         "github": "https://github.com/KrisWerbrouck1/Innovet-arduino-so",
-        "site": "https://innovet-arduino-uno.netlify.com/",
+        "site": "https://innovet-arduino-uno.netlify.app/",
         "time": { },
         "image": "/img/arduino.png"
       },
@@ -39,7 +39,7 @@
         "author": "Kris Werbrouck",
         "description": "De ESP8266 is een goedkope 32-bit microcontroller met Wi-Fi mogelijkheid die te programmeren is met Arduino IDE. In de cursus wordt de pin-layout besproken van het WEMOS D1R2 ontwikkelbord, wordt er een eenvoudige webserver opgezet en wordt er informatie verstuurd via een GET- en POST request.",
         "github": "https://github.com/KrisWerbrouck1/Innovet-ESP8266-SO",
-        "site": "https://innovet-esp8266-so.netlify.com/",
+        "site": "https://innovet-esp8266-so.netlify.app/",
         "time": { },
         "image": "/img/esp8266.png"
       },
@@ -59,7 +59,7 @@
         "author": "Kris Werbrouck",
         "description": "Adafruit.io is een IoT-platform om data afkomstig van sensoren te bewaren en visueel weer te geven, bovendien kunnen actuatoren aangestuurd worden. In deze cursus wordt gebruik gemaakt van de ESP8266 microcontroller.",
         "github": "https://github.com/KrisWerbrouck1/Innovet-AdafruitIO-SO",
-        "site": "https://innovet-adafruitio-so.netlify.com/",
+        "site": "https://innovet-adafruitio-so.netlify.app/",
         "time": { },
         "image": "/img/adafruit_io.png"
       },
@@ -69,7 +69,7 @@
         "author": "Kris Werbrouck",
         "description": "All Things Talk is een van oorsprong Vlaams IoT-platform om data afkomstig van sensoren te bewaren en visueel weer te geven, bovendien kunnen actuatoren aangestuurd worden. In deze cursus wordt gebruik gemaakt van de ESP8266 microcontroller.",
         "github": "https://github.com/KrisWerbrouck1/Innovet-All-Things-Talk-SO",
-        "site": "https://innovet-all-things-talk-so.netlify.com/",
+        "site": "https://innovet-all-things-talk-so.netlify.app/",
         "time": { },
         "image": "/img/allthingstalk.png"
       },
@@ -79,7 +79,7 @@
         "author": "Kris Werbrouck",
         "description": "De Raspberry PI is een kleine single bord computer. De Raspberry Pi werd ontwikkeld aan de Universiteit van Cambridge en was bedoeld voor educatieve doeleinden. In deze cursus wordt de installatie van Raspbian besproken, het gebruik op afstand via VNC Viewer, het opzetten van een LAMP-server, het aanmaken van een MySQL database om informatie afkomstig van sensoren te bewaren en deze grafisch weer te geven met Grafana.",
         "github": "https://github.com/KrisWerbrouck1/Innovet-RaspberryPi-SO",
-        "site": "https://innovet-raspberrypi-so.netlify.com/",
+        "site": "https://innovet-raspberrypi-so.netlify.app/",
         "time": { },
         "image": "/img/raspberry_pi.jpg"
       },
@@ -175,7 +175,7 @@
         "author": "Piet Cordemans & Nico De Witte",
         "description": "Het ontwikkelen van cursusmateriaal en oefeningen vergt veel tijd. Samenwerken door materiaal te delen via open source kan hierbij helpen. In deze cursus vertrekken wij vanuit een versiebeheertool genaamd git. Genereer een cursus met Markdown en VuePress. Deze cursus geeft alle info om je eigen cursus te ontwikkelen en hosten.",
         "github": "https://github.com/VIVES-Elektronica-ICT-Brugge/git-github-vuepress",
-        "site": "https://devbit-git-course.netlify.com/",
+        "site": "https://devbit-git-course.netlify.app/",
         "time": {
           "theory": "4u",
           "lab": "4u"
@@ -197,18 +197,6 @@
       },
       {
         "id": 22,
-        "title": "Oefeningen Blokken",
-        "author": "Piet Cordemans",
-        "description": "Blokken is een Blockly-gebaseerde programmeer omgeving. Deze oefeningen zijn een intuïtieve introductie tot programmeerconcepten. Elke oefening vraagt ongeveer 2 uur en bevat voldoende extra uitdagingen.",
-        "github": "https://github.com/pcordemans/blokken-oefeningen",
-        "site": "https://blokken-oefeningen.netlify.com/",
-        "time": {
-          "exercises": "8u"
-        },
-        "image": "/img/blokken.png"
-      },
-      {
-        "id": 23,
         "title": "Python",
         "author": "Pieter Spronck",
         "description": "Python is een toegankelijke programmeertaal, die de laatste jaren heel populair geworden is. In deze zeer uitgebreide cursus van Pieter Spronck worden de basisprogrammeerstructuren besproken maar ook Object georiënteerd programmeren.",
@@ -217,7 +205,7 @@
         "image": "/img/python.png"
       },
       {
-        "id": 24,
+        "id": 23,
         "title": "Edictum",
         "author": "Edictum",
         "description": "Edictum is een Nederlandse site waar verschillende online cursussen beschikbaar zijn rond Scratch, Java, MySQL, Arduino, Microbit, Raspberry pi en computernetwerken.",
@@ -226,7 +214,7 @@
         "image": "/img/edictum.png"
       },
       {
-        "id": 25,
+        "id": 24,
         "title": "Youtube lessen Python",
         "author": "Dirk Peeters",
         "description": "Deze zeer laagdrempelige youtube filmpjes rond Python werden ontwikkeld aan Universiteit Hasselt. De bijhorende oefeningen zijn beschikbaar op het online platform dodona van UGent.",
